@@ -664,7 +664,7 @@ a:focus {
 
 .contact_section .contact_form-container input:-ms-input-placeholder {
   color: #000000;
-  text-transform: uppercase;
+  text-transform: uppercase;contact_section
 }
 
 .contact_section .contact_form-container input::-ms-input-placeholder {
@@ -763,6 +763,7 @@ a:focus {
 }
 
 .team_section .box .img-box {
+  border-radius 50%;
   width: 100%;
 }
 
