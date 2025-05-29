@@ -66,6 +66,20 @@ body {
   text-align: center;
 }
 
+.heading_container.heading_left {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+}
+
+.heading_container.heading_right {
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  text-align: right;
+}
+
 .heading_container.heading_center h2::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
